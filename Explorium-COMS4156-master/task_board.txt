@@ -1,0 +1,22 @@
+TODO:
+-Add option to download itinerary
+
+In Progress:
+-Front end for displaying itineraries and tourist spot details
+-Allow user to create personalized itinerary based on certain filters such as price, rating, hours of operation, etc
+-Add other users to 'trips' and implement comment system
+-Front end for displaying filter options for itinerary creation
+-Save itineraries to user profile
+
+Completed:
+-Able to obtain travel time between tourist attractions from google distance matrix api
+-Store the password informaton in a more secure way
+-Able to obtain tourist spot information from google places api based on category (restaurant, museum, park, university, etc)
+-Able to able to create itinerary for a city in the order of most efficient travel route 
+-Able to create new user account
+-Able to log in user and save credentials in db
+
+Backlog:
+-Strenghten password requirements
+-Display itinerary route on map in UI
+-Add more details to user profile/account creation

@@ -1,0 +1,393 @@
+Messages
+========
+
+Controller.py
+  Line: 2
+    pylint: reimported / Reimport 'request' (imported line 2)
+    pylint: unused-import / Unused jsonify imported from flask
+    pyflakes: F811 / redefinition of unused 'request' from line 2 (col 1)
+  Line: 4
+    pylint: unused-import / Unused or_ imported from sqlalchemy
+  Line: 5
+    pylint: reimported / Reimport 'Flask' (imported line 2)
+    pylint: reimported / Reimport 'request' (imported line 2)
+    pylint: reimported / Reimport 'render_template' (imported line 2)
+    pylint: reimported / Reimport 'g' (imported line 2)
+    pylint: reimported / Reimport 'redirect' (imported line 2)
+    pylint: unused-import / Unused Response imported from flask
+    pyflakes: F811 / redefinition of unused 'Flask' from line 2 (col 1)
+  Line: 10
+    pylint: multiple-imports / Multiple imports on one line (os, time, re)
+    pylint: unused-import / Unused import time
+  Line: 12
+    pylint: unused-import / Unused import datetime
+  Line: 17
+    pylint: unused-import / Unused close_room imported from flask_socketio
+  Line: 34
+    pylint: bare-except / No exception type(s) specified (col 4)
+  Line: 40
+    pylint: unused-argument / Unused argument 'exception' (col 21)
+  Line: 43
+    pylint: unused-variable / Unused variable 'e' (col 24)
+  Line: 56
+    pylint: unused-variable / Unused variable 'ref' (col 4)
+  Line: 85
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 20)
+  Line: 91
+    pylint: unused-variable / Unused variable 'e' (col 28)
+  Line: 107
+    pylint: unused-variable / Unused variable 'ref' (col 4)
+  Line: 127
+    pylint: bare-except / No exception type(s) specified (col 8)
+  Line: 189
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 24)
+  Line: 194
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 24)
+  Line: 203
+    pylint: bare-except / No exception type(s) specified (col 8)
+  Line: 230
+    pep8: E501 / line too long (169 > 159 characters) (col 160)
+  Line: 241
+    pep8: E501 / line too long (191 > 159 characters) (col 160)
+  Line: 261
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 277
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 20)
+    pep8: E501 / line too long (175 > 159 characters) (col 160)
+  Line: 282
+    pep8: E501 / line too long (191 > 159 characters) (col 160)
+  Line: 288
+    pep8: E711 / comparison to None should be 'if cond is not None:' (col 14)
+  Line: 289
+    pylint: unused-variable / Unused variable 'result' (col 8)
+  Line: 295
+    pep8: E711 / comparison to None should be 'if cond is not None:' (col 14)
+  Line: 296
+    pylint: unused-variable / Unused variable 'result' (col 8)
+  Line: 316
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 20)
+    pep8: E501 / line too long (175 > 159 characters) (col 160)
+  Line: 321
+    pep8: E501 / line too long (177 > 159 characters) (col 160)
+  Line: 322
+    pylint: unused-variable / Unused variable 'e' (col 24)
+  Line: 327
+    pep8: E501 / line too long (191 > 159 characters) (col 160)
+  Line: 349
+    pep8: E501 / line too long (180 > 159 characters) (col 160)
+  Line: 393
+    pylint: unused-variable / Unused variable 'e' (col 24)
+  Line: 431
+    pylint: unused-variable / Unused variable 'e' (col 28)
+  Line: 459
+    pylint: unused-variable / Unused variable 'e' (col 24)
+  Line: 466
+    pep8: E114 / indentation is not a multiple of four (comment) (col 7)
+    pep8: E116 / unexpected indentation (comment) (col 7)
+
+ExploriumDbApi.py
+  Line: 1
+    pylint: multiple-imports / Multiple imports on one line (json, sqlalchemy)
+    pylint: unused-import / Unused import json
+  Line: 81
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 112
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 116
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 124
+    pep8: E501 / line too long (172 > 159 characters) (col 160)
+  Line: 139
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 24)
+  Line: 206
+    pep8: E501 / line too long (280 > 159 characters) (col 160)
+  Line: 210
+    pylint: bad-indentation / Bad indentation. Found 6 spaces, expected 8
+  Line: 211
+    pylint: bad-indentation / Bad indentation. Found 6 spaces, expected 8
+  Line: 212
+    pylint: bad-indentation / Bad indentation. Found 6 spaces, expected 8
+  Line: 213
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 214
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 215
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 216
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 218
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 219
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 220
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 222
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 223
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 224
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 225
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 227
+    pylint: bad-indentation / Bad indentation. Found 6 spaces, expected 8
+  Line: 231
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 12)
+  Line: 233
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 12)
+  Line: 235
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 12)
+  Line: 237
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 12)
+  Line: 252
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 18)
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 254
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 265
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+    pep8: E501 / line too long (176 > 159 characters) (col 160)
+  Line: 278
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 20)
+  Line: 280
+    pylint: bare-except / No exception type(s) specified (col 8)
+
+Itinerary.py
+  Line: 1
+    pylint: unused-import / Unused Edge imported from RouteOptimizer
+  Line: 99
+    pylint: bad-indentation / Bad indentation. Found 16 spaces, expected 12
+  Line: 100
+    pylint: bad-indentation / Bad indentation. Found 20 spaces, expected 16
+  Line: 102
+    pylint: bad-indentation / Bad indentation. Found 24 spaces, expected 20
+  Line: 103
+    pylint: bad-indentation / Bad indentation. Found 24 spaces, expected 20
+  Line: 104
+    pylint: bad-indentation / Bad indentation. Found 28 spaces, expected 24
+  Line: 143
+    pylint: trailing-newlines / Trailing newlines
+
+ItineraryService.py
+  Line: 2
+    pylint: unused-import / Unused TouristSpot imported from TouristSpot
+  Line: 3
+    pylint: multiple-imports / Multiple imports on one line (json, sqlalchemy)
+    pylint: unused-import / Unused import sqlalchemy
+  Line: 4
+    pylint: unused-import / Unused and_ imported from sqlalchemy
+  Line: 6
+    pylint: unused-import / Unused import ExploriumDbApi
+  Line: 23
+    pylint: bad-indentation / Bad indentation. Found 6 spaces, expected 8
+  Line: 25
+    pylint: too-many-locals / Too many local variables (16/15)
+  Line: 27
+    pylint: unused-variable / Unused variable 'min_price' (col 4)
+  Line: 55
+    pep8: E501 / line too long (160 > 159 characters) (col 160)
+  Line: 92
+    pylint: trailing-newlines / Trailing newlines
+
+RouteOptimizer.py
+  Line: 1
+    pylint: unused-import / Unused import geopy
+  Line: 3
+    pylint: unused-import / Unused great_circle imported from geopy.distance
+  Line: 4
+    pylint: unused-import / Unused vincenty imported from geopy.distance
+  Line: 34
+    pep8: E114 / indentation is not a multiple of four (comment) (col 6)
+  Line: 82
+    pylint: pointless-statement / Statement seems to have no effect (col 16)
+
+TouristSpot.py
+  Line: 1
+    pylint: cyclic-import / Cyclic import (ExploriumDbApi -> Itinerary -> ItineraryService)
+    pylint: cyclic-import / Cyclic import (ExploriumDbApi -> Itinerary)
+  Line: 11
+    pep8: E711 / comparison to None should be 'if cond is not None:' (col 27)
+
+coverage_tests.py
+  Line: 3
+    pylint: unused-import / Unused import os
+  Line: 4
+    pylint: unused-import / Unused import tempfile
+  Line: 5
+    pylint: import-error / Unable to import 'pytest'
+    pylint: unused-import / Unused import pytest
+  Line: 7
+    pylint: unused-import / Unused import sqlalchemy
+  Line: 8
+    pylint: unused-import / Unused Flask imported from flask
+  Line: 9
+    pylint: unused-import / Unused and_ imported from sqlalchemy
+  Line: 12
+    pylint: unused-wildcard-import / Unused imports from wildcard import: shuffle, GEOCODE_API_KEY, POI_LIMIT, urllib, json, get_tourist_spot_details, GEOCODE_CLIENT, DISTANCE_MATRIX_CLIENT, googlemaps, get_travel_duration, generate_tourist_spot_list, DISTANCE_MATRIX_API_KEY
+  Line: 48
+    pyflakes: F999 / 'TouristSpot' may be undefined, or defined from star imports: ItineraryService (col 14)
+  Line: 59
+    pyflakes: F999 / 'TouristSpot' may be undefined, or defined from star imports: ItineraryService (col 14)
+  Line: 74
+    pyflakes: F999 / 'TouristSpot' may be undefined, or defined from star imports: ItineraryService (col 14)
+  Line: 88
+    pyflakes: F999 / 'TouristSpot' may be undefined, or defined from star imports: ItineraryService (col 14)
+  Line: 104
+    pyflakes: F999 / 'TouristSpot' may be undefined, or defined from star imports: ItineraryService (col 14)
+  Line: 132
+    pyflakes: F999 / 'TouristSpot' may be undefined, or defined from star imports: ItineraryService (col 14)
+  Line: 135
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 8)
+  Line: 163
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 165
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 172
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 174
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 194
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 196
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 207
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 209
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 217
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 220
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 239
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 241
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 258
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 267
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 269
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 334
+    pylint: redefined-builtin / Redefining built-in 'input' (col 8)
+  Line: 383
+    pylint: redefined-builtin / Redefining built-in 'dict' (col 8)
+  Line: 512
+    pylint: unused-variable / Unused variable 'e' (col 28)
+  Line: 531
+    pylint: unused-variable / Unused variable 'e' (col 28)
+  Line: 715
+    pylint: unused-variable / Unused variable 'tourist_spot' (col 12)
+  Line: 724
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 733
+    pylint: literal-comparison / Comparison to literal (col 15)
+  Line: 737
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 746
+    pylint: literal-comparison / Comparison to literal (col 15)
+  Line: 877
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 878
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 951
+    pylint: pointless-string-statement / String statement has no effect
+  Line: 968
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 993
+    pep8: E131 / continuation line unaligned for hanging indent (col 14)
+  Line: 1002
+    pep8: E131 / continuation line unaligned for hanging indent (col 14)
+  Line: 1030
+    pep8: E131 / continuation line unaligned for hanging indent (col 14)
+  Line: 1069
+    pylint: unused-variable / Unused variable 'user' (col 12)
+  Line: 1079
+    pylint: literal-comparison / Comparison to literal (col 19)
+  Line: 1080
+    pylint: unused-variable / Unused variable 'e' (col 28)
+  Line: 1083
+    pylint: literal-comparison / Comparison to literal (col 19)
+  Line: 1087
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 1094
+    pylint: unused-variable / Unused variable 'itinerary' (col 8)
+  Line: 1312
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 1314
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 1316
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 1318
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+
+test_explorium.py
+  Line: 3
+    pylint: unused-import / Unused import os
+  Line: 4
+    pylint: unused-import / Unused import tempfile
+  Line: 5
+    pylint: import-error / Unable to import 'pytest'
+    pylint: unused-import / Unused import pytest
+  Line: 7
+    pylint: unused-import / Unused import sqlalchemy
+  Line: 8
+    pylint: unused-import / Unused Flask imported from flask
+  Line: 9
+    pylint: unused-import / Unused and_ imported from sqlalchemy
+  Line: 12
+    pylint: unused-wildcard-import / Unused imports from wildcard import: shuffle, GEOCODE_API_KEY, TouristSpot, POI_LIMIT, urllib, json, get_tourist_spot_details, GEOCODE_CLIENT, DISTANCE_MATRIX_CLIENT, googlemaps, get_travel_duration, generate_tourist_spot_list, DISTANCE_MATRIX_API_KEY
+    pyflakes: F401 / 'ItineraryService.*' imported but unused (col 1)
+  Line: 17
+    pyflakes: F401 / 'json' imported but unused (col 1)
+  Line: 18
+    pylint: unused-import / Unused import utils
+  Line: 319
+    pylint: unused-variable / Unused variable 'tourist_spot' (col 12)
+  Line: 329
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 338
+    pylint: literal-comparison / Comparison to literal (col 15)
+  Line: 342
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 351
+    pylint: literal-comparison / Comparison to literal (col 15)
+  Line: 368
+    pylint: unused-variable / Unused variable 'user' (col 12)
+  Line: 377
+    pylint: literal-comparison / Comparison to literal (col 19)
+  Line: 378
+    pylint: unused-variable / Unused variable 'e' (col 28)
+  Line: 381
+    pylint: literal-comparison / Comparison to literal (col 19)
+  Line: 385
+    pylint: unused-variable / Unused variable 'user' (col 8)
+  Line: 392
+    pylint: unused-variable / Unused variable 'itinerary' (col 8)
+  Line: 421
+    pylint: too-many-function-args / Too many positional arguments for function call (col 8)
+  Line: 564
+    pylint: no-value-for-parameter / No value for argument 'dml' in method call (col 16)
+  Line: 744
+    pylint: pointless-string-statement / String statement has no effect
+  Line: 749
+    pylint: trailing-newlines / Trailing newlines
+
+utils.py
+  Line: 3
+    pylint: multiple-imports / Multiple imports on one line (traceback, re)
+
+
+
+Check Information
+=================
+         Started: 2017-12-15 23:11:17.476188
+        Finished: 2017-12-15 23:11:31.499198
+      Time Taken: 14.02 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: flask
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 189
+

@@ -1,0 +1,29 @@
+> import hashlib
+> import ExploriumDbApi
+> import traceback, re
+  
+> def valid_email(email):
+>     p = re.compile('[aA0-zZ9$]+@[aA0-zZ9]+\.[a-z]+')
+>     if p.match(email) is None:
+>         return False
+>     query = ExploriumDbApi.USERS_TABLE.select().where(ExploriumDbApi.USERS_TABLE.c.email == email)
+>     email_check = ExploriumDbApi.conn.execute(query).fetchone()
+>     if email_check:
+>         traceback.print_exc()
+>         return False
+>     return True
+  
+> def valid_username(username):
+>     if username == 'guest':
+>         return False
+>     query = ExploriumDbApi.USERS_TABLE.select().where(ExploriumDbApi.USERS_TABLE.c.username == username)
+>     username_check = ExploriumDbApi.conn.execute(query).fetchone()
+>     if username_check:
+>         traceback.print_exc()
+>         return False
+>     return True
+  
+> def hash_password(password):
+>     hasher = hashlib.sha256()
+>     hasher.update(password)
+>     return hasher.hexdigest()

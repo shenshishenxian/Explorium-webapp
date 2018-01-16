@@ -1,0 +1,11 @@
+Name                  Stmts   Miss  Cover
+-----------------------------------------
+Controller.py           339     68    80%
+ExploriumDbApi.py       208      9    96%
+Itinerary.py            116      3    97%
+ItineraryService.py      52      0   100%
+RouteOptimizer.py        79      2    97%
+TouristSpot.py           72      0   100%
+utils.py                 26      0   100%
+-----------------------------------------
+TOTAL                   892     82    91%
